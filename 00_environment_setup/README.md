@@ -46,7 +46,6 @@ If it displays the version, the installation was successful.
 
 #### Step 2: Select Workloads
 In the installer window, you'll see various workloads. Select the following based on your needs:
-#### Desktop development with c++:
 1. Check **"Desktop development with c++"**.
 2. Click the **"Install"** button.
 3. Wait for the installation to complete (this may take some time depending on your internet speed).
