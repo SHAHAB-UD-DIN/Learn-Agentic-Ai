@@ -1,0 +1,17 @@
+[project]
+name = "first-program"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "SHAHAB-UD-DIN", email = "150152275+SHAHAB-UD-DIN@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+first-program = "first_program.hello:name"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
