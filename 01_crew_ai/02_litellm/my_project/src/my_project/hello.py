@@ -1,8 +1,7 @@
 from litellm import completion
 import os
 
-os.environ["GEMINI_API_KEY"] = "AIzaSyAcyACY-_PBKkjeMTZk4RMo0LQ61luDH5A"
-
+os.environ["GEMINI_API_KEY"] = ""
 def gemini():
     response = completion(
         model="gemini/gemini-1.5-flash",
