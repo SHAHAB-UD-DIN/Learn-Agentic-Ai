@@ -1,0 +1,20 @@
+[project]
+name = "langgraph-examples"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "SHAHAB-UD-DIN", email = "150152275+SHAHAB-UD-DIN@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph>=0.2.72",
+]
+
+[project.scripts]
+langgraph-examples = "langgraph_examples:main"
+router = "langgraph_examples.example:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
