@@ -1,6 +1,9 @@
 describe_topic:
-    description: "Describe the topic in a way that is easy to understand"
-    expected_output: "A description of the topic"
+    description: >
+      we are mentoring to create the best Agentic AI Engineers. Today we tech {topic}
+    expected_output: >
+      the student will have mastered the topic {topic}
+    agents: sir_zia
 
 
 
