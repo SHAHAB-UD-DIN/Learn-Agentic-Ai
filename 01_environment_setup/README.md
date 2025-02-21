@@ -2,7 +2,7 @@
 Ensure you have Python installed (version 3.8 or later). Download it from the official site if needed:
 - [Download Python](https://www.python.org/downloads/)
 - Check installation by running in Command Prompt (CMD):
-```bash
+```python
 python --version
 ```
 ## Step 2: Install `uv` via PowerShell
@@ -46,7 +46,6 @@ If it displays the version, the installation was successful.
 
 #### Step 2: Select Workloads
 In the installer window, you'll see various workloads. Select the following based on your needs:
-- Desktop development with c++:
 1. Check **"Desktop development with c++"**.
 2. Click the **"Install"** button.
 3. Wait for the installation to complete (this may take some time depending on your internet speed).
@@ -61,22 +60,22 @@ python.exe -m pip install --upgrade pip
 # Installing CrewAI
 #### Python Version Requirements
 CrewAI requires `Python >=3.10 and <3.13`. Here’s how to check your version:
-```bash
+```python
 python --version
 ```
 #### Installation
 CrewAI is a flexible and powerful AI framework that enables you to create and manage AI agents, tools, and tasks efficiently. Let’s get you set up! 🚀
 1. Install CrewAI
 Install CrewAI with all recommended tools using either method:
-```bash
+```crewai
 pip install 'crewai[tools]'
 ```
 or
-```bash
+```crewai
 pip install crewai crewai-tools
 ```
 2. Upgrade CrewAI
 If you have an older version of CrewAI installed, you can upgrade it:
-```bash
+```crewai
 pip install --upgrade crewai crewai-tools
 ```
