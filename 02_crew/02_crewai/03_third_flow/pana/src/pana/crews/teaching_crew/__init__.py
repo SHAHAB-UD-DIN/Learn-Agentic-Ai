@@ -1,0 +1,3 @@
+"""
+Teaching crew package initialization
+""" 
