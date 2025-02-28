@@ -1,18 +1,18 @@
-from crewai import Flow, start, listen
+from crewai.flow import Flow, listen, start
 from multiple_agents.crews.dev_crew.dev_crew import DevCrew
 
-class DevCrew(Flow):
+class DevCrewFlow(Flow):
 
     @start()
     def run_dev_crew(self):
         output = DevCrew().crew().kickoff(
-            input={
-                "problem":"write python code for addition two numbers"
+            inputs={
+                "problem": "write python code for addition two numbers"
             }
         )
         return output.raw
     
 def kickoff():
-    obj = DevCrew()
-    result = obj.kickoff()
+    dev_flow = DevCrewFlow()
+    result = dev_flow.kickoff()
     print(result)
