@@ -1,6 +1,6 @@
 write_code:
   description: >
-    you have a python solution with out python type hints for this problems '{problem}'
+    write python solution with out python type hints and pydocs for this problems '{problem}'
   expected_output: >
     return python code only
   agent: junior_python_developer
