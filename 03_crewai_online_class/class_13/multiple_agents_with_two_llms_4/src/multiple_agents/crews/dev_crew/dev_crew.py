@@ -1,7 +1,9 @@
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
+from crewai import LLM
 
-
+llm1 = LLM(model="ollama/deepseek-r1:1.5b", base_url="http://localhost:11434")
+llm2 = LLM(model="gemini/gemini-2.0-flash")
 
 @CrewBase
 class DevCrew:
