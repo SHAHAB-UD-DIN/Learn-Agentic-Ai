@@ -16,12 +16,14 @@ class DevCrew:
     def junior_python_developer(self) -> Agent:
         return Agent(
             config=self.agents_config["junior_python_developer"],
+            llm=llm1,
         )
     
     @agent
     def senior_python_developer(self) -> Agent:
         return Agent(
             config=self.agents_config["senior_python_developer"],
+            llm=llm2,
         )
 
     @task
